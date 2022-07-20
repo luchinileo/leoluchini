@@ -1,0 +1,94 @@
+body {
+  background-image: url("https://www.bluwonder.com/wp-content/uploads/2020/04/Porsche-911-Carrera-4S-2.jpg");
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-color: black;
+  font-family: Verdana
+  font-family: sans-serif
+background-image: 48vh
+}
+
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+p {
+  text-align: left; 
+}
+h2 {
+  text-align: left;
+}
+
+ul {
+  font-family: "Franklin Gothic Medium";
+  font-size: 15px;
+}
+
+ul > li {
+  list-style: none;
+  background-color: rgb(78, 78, 78);
+}
+
+#miobjectoEspecifico {
+  color: rgb(224, 136, 20); 
+  font-size: 10px;
+}
+
+.liEspecial {
+  color: white;
+  font-style: italic;
+  
+}
+
+
+ul,
+ol {
+  list-style-type: none/>
+   
+
+  .img {
+    height: calc(300px + 3em);
+    width: 260px;
+    margin: 1em auto;
+    border: 1px solid #d46a6a;
+    position: relative;
+  }
+  
+  .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 3s;
+  }
+  
+  .galeria input[type="radio"] {
+    position: relative;
+    bottom: calc(-300px - 1.5em);
+    left: 0,05em;
+  }
+
+
+
+
+
+.galeria input[type="radio"]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+  opacity: 1;
+}
+
+.galeria input[type="radio"]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+  opacity: 1;
+}
+
+.galeria input[type="radio"]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+  opacity: 1;
+}
+
+.galeria input[type="radio"]:nth-of-type(4):checked ~ img:nth-of-type(4) {
+  opacity: 1;
+}
+
+.galeria input[type="radio"]:nth-of-type(5):checked ~ img:nth-of-type(4) {
+  opacity: 1;
+}
+
